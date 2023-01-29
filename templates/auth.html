@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Authenticator Testing</title>
+        <link rel="stylesheet" href="..\static\auth.css">
+        <link rel="icon" href="../static/lock.png">
+    </head>
+    <body>
+        <div id="main">
+            Password encryption testing.
+            <div id="spacer"></div>
+            <form method="POST">
+                <input type="password" name="text" id="text_input" placeholder="Password">
+                <input type="submit" id="submit_input" value="Submit">
+            </form>
+            <div id="incorrect_password">{{additional}}</div>
+        </div>
+    </body>
+</html>

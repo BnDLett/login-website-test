@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>MDN Map Check</title>
+        <link rel="stylesheet" href="..\static\index.css">
+        <link rel="icon" href="..\static\icon.png">
+    </head>
+    <body>
+        <div id="main">
+            <div id="line"></div>
+            <div id="image_div"><img src="..\static\icon.png" alt="MDN Logo" id="mdnLogo" height="75px"> <br></div> <h2 id="stuff">An unofficial MDN website</h2>
+            <div id="spacer_sec"></div><div id="spacer_sec"></div>
+            <div id="main_body">
+                <div id="title">MDN Map Check</div>
+                <p id="sub">Check what maps are in cycle on mindustry.ddns.net, you may start by entering a map name in the prompt below.</p>
+                <div id="form_div">
+                    <form method="POST">
+                        <input name="text" id="text_input" placeholder="Map">
+                        <input type="submit" id="submit_input">
+                    </form>
+                    <div id="title3">Map status: {{a1}}</div>
+                </div>
+            </div>
+            <div id="spacer_sec"></div>
+            <div id="sec_body">
+                <div id="title">How does this service work?</div>
+                <div id="title2">Getting the map</div>
+                <p id="sub">By scanning over the ports in the mindustry.ddns.net server, we can get the map name. With this map name, we may open a file and put it in to a file for later use.</p>
+                <div id="title2">Checking for requested map</div>
+                <p id="sub">Whenever you input a map name in the form and press submit, the back-end sees it and checks a file and see if the inputted name is in it.</p>
+            </div>
+        </div>
+    </body>
+</html>
