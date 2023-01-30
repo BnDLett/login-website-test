@@ -79,6 +79,3 @@ def command_line_post():
         return render_template('index.html')
     res = eval(cmd)
     return render_template('index.html', result=res)
-
-if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=80)
