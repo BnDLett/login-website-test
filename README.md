@@ -18,3 +18,4 @@ Once you are logged in, snippets of code such as `print()` will work. You may us
 # I-am-aware-of
 1. The insecurity of using `in` whenever checking if the inputted password's hash is equivalent to the hash of accepted passwords. This was not designed for high-level security and is just a small project and that the issue creates a possible gap in security.
 2. No brute-force protection. As mentioned before, I do not intend for this to be high-level meaning I've also let it be vulnerable to brute-force attacks. This may be fixed or changed in a future version if I ever make a future version that is intended to be high security.
+3. No `remove_password` command. Unfortunately, I hadn't implemented this at time of development which it could of likely been entirely possible. Maybe in a v2.1 update if it ever comes along.
