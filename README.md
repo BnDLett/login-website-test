@@ -18,7 +18,7 @@ The passwords that you may use to log in are:
 2. password2
 
 If you wish to visit the webpage for this without needing to install the files, here is the link for it https://login-testing.onrender.com
-<br>The provided passwords beforehand will not work.
+<br>The provided passwords beforehand may not work.
 
 Once you are logged in, snippets of code such as `print()` will work. You may use `add_password("pass")` to add a password, replacing `pass` with the password.
 
