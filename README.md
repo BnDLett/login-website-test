@@ -1,11 +1,19 @@
 # login-website-test
 Testing website logging in via password
 
-# Important-info
-1. Information such as encryption key and encryption file are removed. If you wish to add your own encryption method and encrypted password, feel free to do so.
+Version 2 of log in webpage. 
 
-2. Example webpage is not functional, meaning that if you try to press the "submit" button then it won't do anything. The example website was stripped from https://mdnmapcheck.ddns.net/ if you wish to try it out. 
+# Improvements-and-changes
+1. Passwords are now stored in hash
+2. Added usage of cookies in order to allow the user to bypass the login screen as long as the cookie has the correct password value.
+3. Added a proper index page with a command line interface that one can type in.
 
-3. The example website on this is mine. I made it myself in my own time, so no illegal activity or easily discouraged practices are taking place.
+# Information
+The passwords that you may use to log in are:
+1. password
+2. password2
 
-4. I am aware that using hashes are better over encrypted passwords, I wasn't aware of this until after I had completed most of the back-end.
+Once you are logged in, snippets of code such as `print()` will work. You may use `add_password("pass")` to add a password, replacing `pass` with the password.
+
+# I-am-aware-of
+1. The insecurity of using `in` whenever checking if the inputted password's hash is equivalent to the hash of accepted passwords. This was not designed for high-level security and is just a small project and that the issue creates a possible gap in security.
