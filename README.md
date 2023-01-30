@@ -3,10 +3,14 @@ Testing website logging in via password
 
 Version 2 of log in webpage. 
 
-# Improvements-and-changes
+# Improvements and changes
 1. Passwords are now stored in hash
 2. Added usage of cookies in order to allow the user to bypass the login screen as long as the cookie has the correct password value.
 3. Added a proper index page with a command line interface that one can type in.
+
+# Changes in v2.1
+1. Brute-force protection that will help slow down most brute-force attacks. Blocks user from logging in past the 10th attempt.
+2. Added `remove_password()` command, an example of usage would be `remove_password("password")` with `password` of course being the password to be removed.
 
 # Information
 The passwords that you may use to log in are:
@@ -15,7 +19,6 @@ The passwords that you may use to log in are:
 
 Once you are logged in, snippets of code such as `print()` will work. You may use `add_password("pass")` to add a password, replacing `pass` with the password.
 
-# I-am-aware-of
+# I am aware of
 1. The insecurity of using `in` whenever checking if the inputted password's hash is equivalent to the hash of accepted passwords. This was not designed for high-level security and is just a small project and that the issue creates a possible gap in security.
-2. No brute-force protection. As mentioned before, I do not intend for this to be high-level meaning I've also let it be vulnerable to brute-force attacks. This may be fixed or changed in a future version if I ever make a future version that is intended to be high security.
-3. No `remove_password` command. Unfortunately, I hadn't implemented this at time of development which it could of likely been entirely possible. Maybe in a v2.1 update if it ever comes along.
+2. Brute-force is weak, however it should help slow down brute-force attacks.
