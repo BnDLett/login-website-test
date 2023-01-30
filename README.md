@@ -1,7 +1,7 @@
 # login-website-test
 Testing website logging in via password
 
-Version 2 of log in webpage. 
+Version 2.1 of log in webpage. 
 
 # Improvements and changes from v1
 1. Passwords are now stored in hash
@@ -16,6 +16,9 @@ Version 2 of log in webpage.
 The passwords that you may use to log in are:
 1. password
 2. password2
+
+If you wish to visit the webpage for this without needing to install the files, here is the link for it https://login-testing.onrender.com
+<br>The provided passwords beforehand will not work.
 
 Once you are logged in, snippets of code such as `print()` will work. You may use `add_password("pass")` to add a password, replacing `pass` with the password.
 
