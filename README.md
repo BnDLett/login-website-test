@@ -3,7 +3,7 @@ Testing website logging in via password
 
 Version 2 of log in webpage. 
 
-# Improvements and changes
+# Improvements and changes from v1
 1. Passwords are now stored in hash
 2. Added usage of cookies in order to allow the user to bypass the login screen as long as the cookie has the correct password value.
 3. Added a proper index page with a command line interface that one can type in.
